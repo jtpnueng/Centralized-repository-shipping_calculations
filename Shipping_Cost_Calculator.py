@@ -50,3 +50,7 @@ scaled_data = pd.concat([data.drop(columns=continuous_columns), scaled_df], axis
 
 print ("dfdf")
 #dfdf
+
+file_path = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/GkDzb7bWrtvGXdPOfk6CIg/Obesity-level-prediction-dataset.csv"
+data = pd.read_csv(file_path)
+data.head()
